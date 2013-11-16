@@ -1,0 +1,10 @@
+syntax: glob
+*.MPR
+*.mpr
+*.exe
+*.EXE
+*.sdf
+fgl/ipch
+fgl/Release
+fgl/Debug
+*.ncb
