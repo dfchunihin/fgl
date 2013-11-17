@@ -125,6 +125,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="doc\dox.h" />
     <ClInclude Include="fgl.h" />
     <ClInclude Include="fgl3DPrimitives.h" />
     <ClInclude Include="fglCollider.h" />

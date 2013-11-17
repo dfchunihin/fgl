@@ -4,6 +4,15 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="FGL - Fox Graphics Library"><param name="Local" value="index.html"><param name="ImageNumber" value="11"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Introduction"><param name="Local" value="index.html#intro"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="index.html#main_install"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Usage"><param name="Local" value="index.html#main_usage"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Extending the library"><param name="Local" value="index.html#ext"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Support & Feedback"><param name="Local" value="index.html#main_support"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Todo"><param name="Local" value="index.html#todo"><param name="ImageNumber" value="1"></OBJECT>
+  </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -1410,6 +1419,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ILUT_USE_OPENGL"><param name="Local" value="common_8h.html#ab2ebd66ae81f2e85ee9cf6ea8bf54294"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NDEBUG"><param name="Local" value="common_8h.html#a8de3ed741dadc9c979a4ff17c0a9116e"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="dox.h"><param name="Local" value="dox_8h.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="fgl.h"><param name="Local" value="fgl_8h.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="fglANG2RAD"><param name="Local" value="fgl_8h.html#a0f5eaa382c90c7f61fd08732cdeaadf8"><param name="ImageNumber" value="11"></OBJECT>

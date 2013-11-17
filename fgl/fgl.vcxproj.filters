@@ -20,6 +20,9 @@
     <Filter Include="fglSys">
       <UniqueIdentifier>{426fc0b0-d45c-4a53-b323-baa27723422b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{284ea0f0-6ea1-4d62-8284-d53f7287f959}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -102,6 +105,9 @@
     </ClInclude>
     <ClInclude Include="fgl3DPrimitives.h">
       <Filter>fglScene</Filter>
+    </ClInclude>
+    <ClInclude Include="doc\dox.h">
+      <Filter>doc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
