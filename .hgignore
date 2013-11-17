@@ -14,3 +14,5 @@ fgl/Release
 fgl/Debug
 fgl/doc/fgl_html
 *.ncb
+*.chw
+
