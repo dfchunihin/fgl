@@ -3,6 +3,11 @@ syntax: glob
 *.mpr
 *.exe
 *.EXE
+*.BAK
+*.bak
+*_ref.DBF
+*_ref.CDX
+*_ref.FPT
 *.sdf
 fgl/ipch
 fgl/Release
