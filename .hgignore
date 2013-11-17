@@ -12,4 +12,5 @@ syntax: glob
 fgl/ipch
 fgl/Release
 fgl/Debug
+fgl/doc/fgl_html
 *.ncb

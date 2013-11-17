@@ -12,14 +12,14 @@ FGL is high performance 3D graphics application framework based on OpenGL, OpenI
 FGL is aimed for VFP developers who interested in adding interactive 3D visualization features in their applications.
 
 FGL supports:
--	easy to use scene graph object-oriented interface
--	user interaction (mouse, keyboard events)
--	rendering performance optimization features like spatial culling, Level Of Details (LOD), vertex buffers and instancing
--	material and light system
--	text rendering with TrueType and OpenType fonts
--	multiple viewports
--	skeletal animation
--	loading 3D models and textures in wide variety of formats, see <a href="http://assimp.sourceforge.net/main_features_formats.html">http://assimp.sourceforge.net/main_features_formats.html</a> and <a href="http://openil.sourceforge.net/features.php">http://openil.sourceforge.net/features.php</a>
+- easy to use scene graph object-oriented interface
+- user interaction (mouse, keyboard events)
+- rendering performance optimization features like spatial culling, Level Of Details (LOD), vertex buffers and instancing
+- material and light system
+- text rendering with TrueType and OpenType fonts
+- multiple viewports
+- skeletal animation
+- loading 3D models and textures in wide variety of formats, see <a href="http://assimp.sourceforge.net/main_features_formats.html">http://assimp.sourceforge.net/main_features_formats.html</a> and <a href="http://openil.sourceforge.net/features.php">http://openil.sourceforge.net/features.php</a>
 
 
 @section main_install Installation
