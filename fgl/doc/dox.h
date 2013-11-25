@@ -7,7 +7,7 @@
 
 @section intro Introduction
 
-FGL is high performance 3D graphics application framework based on OpenGL, OpenIL, Assimp, Freetype and OpenMesh.
+FGL is high performance 3D graphics application framework based on OpenGL, SOIL (Simple OpenGL Image Library), Assimp, Freetype and OpenMesh.
 
 FGL is aimed for VFP developers who interested in adding interactive 3D visualization features in their applications.
 
@@ -19,20 +19,18 @@ FGL supports:
 - text rendering with TrueType and OpenType fonts
 - multiple viewports
 - skeletal animation
-- loading 3D models and textures in wide variety of formats, see <a href="http://assimp.sourceforge.net/main_features_formats.html">http://assimp.sourceforge.net/main_features_formats.html</a> and <a href="http://openil.sourceforge.net/features.php">http://openil.sourceforge.net/features.php</a>
+- loading 3D models and textures in wide variety of formats, see <a href="http://assimp.sourceforge.net/main_features_formats.html">http://assimp.sourceforge.net/main_features_formats.html</a> and <a href="http://www.lonesock.net/soil.html">http://www.lonesock.net/soil.html</a>
 
 
 @section main_install Installation
 
 1) Download latest FGL version from <a href="http://fgl.codeplex.com/SourceControl/latest">http://fgl.codeplex.com/SourceControl/latest</a>
 
-2) Copy all files from <b>fgl/build</b> folder to the root folder of your project. 
-- fgl.fll : FGL API library
-- Assimp32.dll : importer from various 3d formats
-- DevIL.dll, ILU.dll, ILUT.dll : OpenIL libs
-- msvcp110.dll, msvcr110 : Microsoft Visual Studio 2012 platform toolset
+2) Copy file <b>fgl/build/fgl.fll</b> to the root folder of your project. 
 
-3) Copy <b>sample/_FGL</b> folder to the root folder of your project.
+3) Download and install "Microsoft Visual Studio C++ 2012 Redistributable Package" (or just run fgl/build/vcredist_x86.exe)
+
+4) Copy <b>sample/_FGL</b> folder to the root folder of your project.
 - fgl.fll : FGL API library
 - _FGL/fgl.vcx : wrapper around fgl.fll
 - _FGL/fglc.vcx : FGL controls library

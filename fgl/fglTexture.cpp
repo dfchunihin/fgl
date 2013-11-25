@@ -1,8 +1,6 @@
 #include "fglTexture.h"
 #include "fglScene.h"
 
-#include <IL/devil_cpp_wrapper.hpp>
-
 
 fglTexture::fglTexture(void)
 {
@@ -19,16 +17,11 @@ void fglTexture::build(void)
 	if (path.empty()) return;
 
 	if (id) { glDeleteTextures(1, &id); id=0; }
-	ilImage loImage(path.c_str());
-	if ( ! loImage.GetId() ) { throw fglException(ilError::String()); return; }
+	id = SOIL_load_OGL_texture(path.c_str(), SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_TEXTURE_REPEATS );
+	if ( ! id ) { throw fglException(SOIL_last_result()); return; }
 	
-	id = ilOgl::BindTex(loImage);
-
-	if ( ! id ) { throw fglException(ilError::String()); return; }
-
 	setSceneRenderFlag();
 
-	//ilOgl::Mipmap(loImage);
 }
 
 void fglTexture::bind(void)

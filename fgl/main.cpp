@@ -7,16 +7,9 @@
 #include "fglModel.h"
 #include "fglScene.h"
 
+
 void _fastcall fgl_onload(void)
 {
-	// DevIL initializing
-	ilInit(); 
-	iluInit();
-	ilutInit();
-	ilEnable(IL_CONV_PAL);
-	ilutEnable(ILUT_OPENGL_CONV);
-	ilutRenderer(ILUT_OPENGL);
-
 	/////////////////////////////////////////////////////////////////////////
 	DWORD_PTR lnProcessAffinityMask = 0;
 	DWORD_PTR lnSystemAffinityMask = 0;

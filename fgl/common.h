@@ -26,7 +26,6 @@
 #define GLEW_STATIC
 #include "gl/glew.h"
 #include "gl/wglew.h"
-#pragma comment (lib,"opengl32.lib")
 
 #include <math.h>
 #include <time.h>
@@ -44,16 +43,12 @@
 #include <boost/unordered/unordered_map.hpp>
 #include <boost/container/deque.hpp>
 
-#define ILUT_USE_OPENGL
-#include <IL/il.h>
-#include <IL/ilu.h>
-#include <IL/ilut.h>
+#include <SOIL/SOIL.h>
+#pragma comment (lib,"SOIL.lib")
 
 #pragma comment (lib,"winapims.lib")
+#pragma comment (lib,"opengl32.lib")
 #pragma comment (lib,"glu32.lib")
-#pragma comment (lib,"DevIL.lib")
-#pragma comment (lib,"ILU.lib")
-#pragma comment (lib,"ILUT.lib")
 
 
 #endif

@@ -22,6 +22,7 @@
     </Filter>
     <Filter Include="doc">
       <UniqueIdentifier>{284ea0f0-6ea1-4d62-8284-d53f7287f959}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
