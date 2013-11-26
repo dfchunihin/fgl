@@ -24,16 +24,15 @@ FGL supports:
 
 @section main_install Installation
 
-1) Download latest FGL version from <a href="http://fgl.codeplex.com/SourceControl/latest">http://fgl.codeplex.com/SourceControl/latest</a>
+1) Download latest FGL release from <a href="http://fgl.codeplex.com/releases">http://fgl.codeplex.com/releases</a>
 
-2) Copy file <b>fgl/build/fgl.fll</b> to the root folder of your project. 
+2) Copy file <b>fgl.fll</b> to the root folder of your project. 
 
-3) Download and install "Microsoft Visual Studio C++ 2012 Redistributable Package" (or just run fgl/build/vcredist_x86.exe)
-
-4) Copy <b>sample/_FGL</b> folder to the root folder of your project.
-- fgl.fll : FGL API library
+3) Copy <b>sample/_FGL</b> folder to the root folder of your project.
 - _FGL/fgl.vcx : wrapper around fgl.fll
 - _FGL/fglc.vcx : FGL controls library
+
+4) Download and install <a href="http://search.microsoft.com/en-us/DownloadResults.aspx?q=Visual+C%2b%2b+Redistributable+Packages+for+Visual+Studio+2012">"Visual C++ Redistributable Packages for Visual Studio 2012"</a> (vcredist_x86.exe)
 
 @section main_usage Usage
 1) Integrate library to your project
@@ -47,7 +46,7 @@ SET CLASSLIB TO "_FGL/fglc.vcx" ADDITIVE &&FGL controls library<br>
 - Create new form and put <b>FGLC.fglc_main</b> container on it
 
 2) Compile your project and try to execute it. If there is no any errors you can start to use FGL. 
-Of cause, you can also take a look at samples applications in "samples" folder.
+Of cause, you can also take a look at samples applications.
 
 
 @section ext Extending the library
