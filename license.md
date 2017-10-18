@@ -1,5 +1,5 @@
 BSD
-Copyright (c) 2013, Dmitry Chunikhin <chunihin@yandex.ru>
+Copyright (c) 2013, Dmitry Chunikhin <chunihin-df@yandex.ru>
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
